@@ -19,9 +19,9 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    return res.status(error.statusCode || 500).json({
-        message: error.message || "Internal Server Error",
+    return res.status(Error.statusCode || 500).json({
+        message: Error.message || "Internal Server Error",
     });
-});    
+});
 
 module.exports = app;

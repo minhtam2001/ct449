@@ -14,5 +14,13 @@
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhtam2001/ct449.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minhtam2001/ct449/issues"
+  },
+  "homepage": "https://github.com/minhtam2001/ct449#readme",
   "description": ""
 }
